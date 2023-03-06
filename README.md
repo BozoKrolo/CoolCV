@@ -1,3 +1,3 @@
-1.git clone repository
-2.npm install
+1.git clone repository<br/>
+2.npm install<br/>
 3.npm run dev
