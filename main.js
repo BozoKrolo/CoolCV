@@ -69,8 +69,6 @@ scene.add(moon);
 moon.position.z = 30;
 moon.position.setX(-10);
 
-// Scroll Animation
-
 function moveCamera() {
   const t = document.body.getBoundingClientRect().top;
   moon.rotation.x += 0.05;
@@ -84,8 +82,6 @@ function moveCamera() {
 
 document.body.onscroll = moveCamera;
 moveCamera();
-
-// Animation Loop
 
 function animate() {
   requestAnimationFrame(animate);
